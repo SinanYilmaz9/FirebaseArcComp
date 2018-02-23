@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FirebaseArcComp</string>
+    <string name="default_toolbar_title">@string/app_name</string>
+
+    <!-- new post fragment -->
+    <string name="send_button_label">Send</string>
+    <string name="paragraph2">Paragraph paragraph Paragraph paragraphParagraph paragraphParagraph paragraphParagraph paragraphParagraph paragraphParagraph paragraph
+    </string>
+
+    <string name="textHint">Type a message</string>
+    <string name="user_name">Sinan Yılmaz</string>
+    <string name="description">Description</string>
+
+
+
+</resources>

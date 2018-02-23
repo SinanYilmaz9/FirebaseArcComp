@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <FrameLayout
+        android:id="@+id/composer_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorTitle"
+        android:clickable="true"
+        tools:ignore="Orientation">
+
+
+        <ImageView
+            android:id="@+id/photoView"
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:layout_marginTop="?attr/actionBarSize"
+            />
+
+
+        <EditText
+            android:id="@+id/messageEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="60dp"
+            android:inputType=""
+            android:hint="@string/textHint"
+            android:maxLength="120"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            >
+
+            <ImageButton
+                android:id="@+id/photoPickerButton"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:background="@drawable/photos_selection"
+                android:contentDescription="photo" />
+
+            <Button
+                android:id="@+id/sendButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:enabled="false"
+                android:text="@string/send_button_label"/>
+
+
+        </RelativeLayout>
+
+    </FrameLayout>
+</layout>
+
